@@ -54,6 +54,14 @@
                 ? link_active
                 : link} px-3 py-2 rounded-md text-sm font-medium">Articles</a
             >
+
+            <a
+              href="/svelte-formly"
+              class="{$page.path === '/svelte-formly'
+                ? link_active
+                : link} px-3 py-2 rounded-md text-sm font-medium"
+              >Svelte-formly</a
+            >
           </div>
         </div>
       </div>
@@ -82,6 +90,14 @@
         class="{$page.path === '/articles'
           ? link_active
           : link} block px-3 py-2 rounded-md text-base font-medium">Articles</a
+      >
+
+      <a
+        href="/svelte-formly"
+        class="{$page.path === '/svelte-formly'
+          ? link_active
+          : link} block px-3 py-2 rounded-md text-sm font-medium"
+        >Svelte-formly</a
       >
     </div>
   </div>

@@ -405,6 +405,11 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
+clsx@^1.0.4:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
+
 coa@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
@@ -2474,6 +2479,13 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+svelte-formly@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/svelte-formly/-/svelte-formly-0.0.19.tgz#07b1acc8f9ad5d929d469ca09025a55d00238e77"
+  integrity sha512-hWifmunleFGUB6OI07ZrNT6RLUl7QhwrdGIeUH/EoccaNYSt8cNm/RzJbJlp9PTXfocgUx6yPwUr7rcSvk6JsA==
+  dependencies:
+    clsx "^1.0.4"
 
 svelte-hmr@^0.13.3:
   version "0.13.3"
