@@ -28,7 +28,7 @@
         <div class="flex-shrink-0">
           <img
             class="h-20 w-20"
-            src="https://svelte.dev/svelte-logo-horizontal.svg"
+            src="https://kit.svelte.dev/images/svelte-kit-horizontal.svg"
             alt="Workflow"
           />
         </div>
