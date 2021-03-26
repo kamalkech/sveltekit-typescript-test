@@ -5,14 +5,12 @@
   Counter.subscribe((value) => (count = value));
 </script>
 
-<main>
-  <h1>Hello world!</h1>
-  <hr />
-  Counter: {count}
-  <hr />
-  <p>
-    Visit <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-  <button class="text-2xl bg-gray-200 text-white py-6 px-4">Btn</button>
-</main>
+<h1>Hello world!</h1>
+<hr />
+Counter: {count}
+<hr />
+
+<button
+  class="border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-2 md:text-lg md:px-5">
+  Button
+</button>

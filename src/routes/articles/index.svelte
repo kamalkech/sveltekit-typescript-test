@@ -32,7 +32,7 @@
 
     return {
       props: {
-        articles: articles.data.articles,
+        articles: articles.data ? articles.data.articles : [],
         limit,
       },
     };
@@ -47,6 +47,7 @@
 
   export let articles: Article[];
   export let limit;
+  console.log(`articles`, articles);
 </script>
 
 <h2>Urql</h2>
@@ -54,9 +55,11 @@
 Limit: {limit}
 <br />
 <ul>
-  {#each articles as article}
-    <li>
-      <a href="/articles/{article._id}">{article.title}</a>
-    </li>
-  {/each}
+  {#if articles && articles.length > 0}
+    {#each articles as article}
+      <li>
+        <a href="/articles/{article._id}">{article.title}</a>
+      </li>
+    {/each}
+  {/if}
 </ul>
