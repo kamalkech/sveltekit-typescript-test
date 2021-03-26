@@ -1,0 +1,1 @@
+import{S as s,i as a,s as t,e,t as c,c as o,a as r,b as n,d as u,f as i,g as l,n as d}from"../chunks/index-0559b322.js";function f(s){let a,t;return{c(){a=e("h2"),t=c("Socket")},l(s){a=o(s,"H2",{});var e=r(a);t=n(e,"Socket"),e.forEach(u)},m(s,e){i(s,a,e),l(a,t)},p:d,i:d,o:d,d(s){s&&u(a)}}}export default class extends s{constructor(s){super(),a(this,s,null,f,t,{})}}
